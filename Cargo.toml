@@ -1,0 +1,15 @@
+[package]
+name = "xopsupport-sys"
+version = "0.1.0"
+authors = ["Jeff Harrison <jarrison@uw.edu>"]
+edition = "2018"
+links = "XOPSupport"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+libc = "0.2.60"
+
+[build-dependencies]
+bindgen = "0.50.0"
